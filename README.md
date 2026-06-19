@@ -80,13 +80,24 @@
 ```bash
 apt update
 apt full-upgrade -y
-pkg upgrade -y
- apt install git zip python -y
+pkg install git zip unzip python -y
+
 git clone https://github.com/sakibtalukdar280-debug/bug_hunter.git
-unzip bug_hunter.zip
+
 cd bug_hunter
+
+ls
+
+unzip bug_hunter.zip
+
+ls
+
+cd bug_hunter
+
 pip install -r requirements.txt
+
 bash setup.sh
+
 python bug_hunter_menu.py
 ```
 
