@@ -80,7 +80,7 @@
 ```bash
 apt update && apt install git zip python -y
 git clone https://github.com/sakibtalukdar280-debug/bug_hunter.git
-unzip bug_hunter
+unzip bug_hunter.zip
 cd bug_hunter
 pip install -r requirements.txt
 bash setup.sh
