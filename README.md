@@ -78,7 +78,10 @@
 
 ### One Command (Termux/Linux)
 ```bash
-apt update && apt install git zip python -y
+apt update
+apt full-upgrade -y
+pkg upgrade -y
+ apt install git zip python -y
 git clone https://github.com/sakibtalukdar280-debug/bug_hunter.git
 unzip bug_hunter.zip
 cd bug_hunter
