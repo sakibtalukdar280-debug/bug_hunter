@@ -85,7 +85,7 @@ cd bug_hunter
 pip install -r requirements.txt
 bash setup.sh
 python bug_hunter_menu.py
-
+```
 
 Manual
 
