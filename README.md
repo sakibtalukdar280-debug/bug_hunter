@@ -83,8 +83,9 @@ git clone https://github.com/sakibtalukdar280-debug/bug_hunter.git
 unzip bug_hunter
 cd bug_hunter
 pip install -r requirements.txt
+bash setup.sh
 python bug_hunter_menu.py
-```
+
 
 Manual
 
