@@ -94,6 +94,10 @@ ls
 
 cd bug_hunter
 
+pkg install libxml2 libxslt clang python -y
+
+pip install colorama requests beautifulsoup4 urllib3
+
 pip install -r requirements.txt
 
 bash setup.sh
