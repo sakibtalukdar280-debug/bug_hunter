@@ -78,8 +78,9 @@
 
 ### One Command (Termux/Linux)
 ```bash
-apt update && apt install git python -y
+apt update && apt install git zip python -y
 git clone https://github.com/sakibtalukdar280-debug/bug_hunter.git
+unzip bug_hunter
 cd bug_hunter
 pip install -r requirements.txt
 python bug_hunter_menu.py
